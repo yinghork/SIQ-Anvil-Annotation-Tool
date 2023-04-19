@@ -24,8 +24,8 @@ The frontend of the annotation tool was created using anvil. The primary functio
 * Attention Map:
 * Sentiment Graph:
 * Emotion Bar Chart:
-* Subjectivity Graph:
-* Intensity Graph:
+* Polarity Graph: For ecah correct and incorrect answer pair, SenticNet API outputs one of the following labels: POSTIVE, NEGATIVE, or NEUTRAL. They correspond to 1, -1, and 0 on the graph respectively. Correct answers are colored blue and incorrect answers are colored red on the graph.
+* Intensity Graph: For ecah correct and incorrect answer pair, SenticNet API outputs a number between -1 and 1 which represents a degree of emotions and sentiments. Correct answers are colored blue and incorrect answers are colored red on the graph.
 
 
 ### Backend: 
