@@ -48,3 +48,4 @@ The frontend of the annotation tool was created using anvil. The primary functio
 
 
 ### Backend: 
+The backend provides functions to update and retrieve information needed for the frontend. The backend maintains the database, which stores each question and answer pairs as well as their respective values for logits, attention map, sentiment, and other metrics. When the user saves their annotation, the backend is invoked to calculate the measures then store the values in the database. Then, the backend generates outputs such as logit values and graphs for attention map, sentiment, etc, which are sent to the frontend to be displayed. To calculate the measures, we mainly use 3 sources. First, the logits and attention values are computed on the RoBERTA model. For other linguistic measures such as sentiment and subjectivity, we make use of the NLTK library and Senticnet API. 
