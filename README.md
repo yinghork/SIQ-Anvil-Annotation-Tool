@@ -43,8 +43,8 @@ The frontend of the annotation tool was created using anvil. The primary functio
 * Attention Map: the attention map is a heat map that corresponds to the attention values of each word in the correct and incorrect answer sentences. Higher attention value means that the word has more influence in the model, which is represented by a darker color on the heat map.
 * Sentiment Graph: the NLTK library outputs the overal sentiment of an input sentence in range -1 to 1. The graph shows a t-test between correct answers (blue) and incorrect answers (red).
 * Emotion Bar Chart: For each sentence, the SenticNet API outputs 1 or 2 emotions out of 24, which are divided by 6 emotion levels ranging from most negative to most positive. For each of the 6 emotion levels, the bar chart aggregates the number of sentences classified with that level.
-* Polarity Graph: For each correct and incorrect answer pair, SenticNet API outputs one of the following labels: POSTIVE, NEGATIVE, or NEUTRAL. They correspond to 1, -1, and 0 on the graph respectively. Correct answers are colored blue and incorrect answers are colored red on the graph.
-* Intensity Graph: For each correct and incorrect answer pair, SenticNet API outputs a number between -1 and 1 which represents a degree of emotions and sentiments. Correct answers are colored blue and incorrect answers are colored red on the graph.
+* Polarity Graph: For each sentence, SenticNet API outputs one of the following labels: POSTIVE, NEGATIVE, or NEUTRAL. They correspond to 1, -1, and 0 on the graph respectively. Correct answers are colored blue and incorrect answers are colored red on the graph.
+* Intensity Graph: For each sentence, SenticNet API outputs a number between -1 and 1 which represents a degree of emotions and sentiments. Correct answers are colored blue and incorrect answers are colored red on the graph.
 
 
 ### Backend: 
