@@ -1,10 +1,17 @@
 # SIQ-Anvil-Annotation-Tool
+<img width="498" alt="Screenshot 2023-05-03 at 2 46 00 PM" src="https://user-images.githubusercontent.com/56246022/236014686-cc917eec-b16f-433e-81da-b43005cfb818.png">
 
 
 ## How to launch the Anvil Backend: 
 
+Run the code in the file anvil_backend_code.ipynb. 
 
 ## Reproducing a demo: 
+
+Start up the anvil backend as described above. 
+Start up the anvil frontend through anvil UI.
+Login using the username "yinghork@andrew.cmu.edu" and password "test". 
+
 
 ## Guide for Annotators:
 ### Step by Step Annotation Pipeline
